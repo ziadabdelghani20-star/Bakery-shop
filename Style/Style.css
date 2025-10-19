@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.contener {
+    width: 90%;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    width: 15%;
+}
+
+.logo img {
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+.navBar {
+    background-color: #333; /* Ensure a solid background color */
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar stays on top */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+
+
+ .bar {
+    float: right;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.bar ul {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+
+}
+
+.bar ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+.bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bar ul li a:hover {
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
+
+
+.home{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    
+}
+.ContentHome{
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+    padding: 200px;
+    font-size: 23px;
+    width: 50%;
+    
+}
+.ContentHome p {
+    margin-bottom: 20px;
+    line-height:44.64px;
+}
+.ContentHome h1 {
+    margin: 20px 0;
+
+}
+.ContentHome button {
+    color: white;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.ContentHome .BtnLearn{
+background-color: #8e7754;
+border: none;
+
+}
+.BtnLearn:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.ContentHome .BtnContact{
+    border-color: white;
+    background-color: transparent;
+}
+.BtnContact:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.secand{
+    margin-top: 40px;
+}
+.SecandSectian 
+{
+
+    width: 90%;
+    margin: auto;
+
+}
+.imageSecand
+{
+    float: left;
+    width: 40%;
+    margin-left: 50px;
+
+}
+
+.imageSecand img {
+    width: 90%;
+    padding-left: 50px;
+}
+
+.PragWho
+{
+    float: right;
+    width: 50%;
+    font-size: 18px;
+
+
+}
+
+
+.ListAbout
+{
+    float: left;
+    color:#686868;
+
+
+}
+.ListAbout i
+{
+    color: rgb(142, 119, 84)
+;
+    padding: 5px;
+    border: 1px solid #686868;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.ListAbout ul li 
+{
+
+    padding: 15px 0;
+    list-style: none;
+
+}
+.PragWho p 
+{
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 90%;
+    font-size:17px;
+    line-height:31.62px;
+    color: rgb(104, 104, 104);
+
+
+}
+.PragWho h2
+{
+
+    color: rgb(48, 48, 48);
+            font-weight: 400;
+
+
+
+}
+
+
+.bg-color{
+    
+    background-color: rgb(248, 248, 248);
+    margin-top: 50px;
+}
+
+.Locatian
+{
+    width: 90%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin: auto;
+    
+}
+.LocatianPrg
+{
+    float: left;
+    width: 50%;
+    margin-top: 50PX;
+    margin-left: 50PX;
+
+
+}
+.LocatianPrg h2 {
+    margin-bottom: 20px;
+    font-size:32px;
+        color: rgb(48, 48, 48);
+        font-weight: 400;
+
+
+}
+.LocatianPrg p {
+    margin-top: 20px;
+    color: rgb(104, 104, 104);
+    line-height:31.62px
+
+}
+.LocationImg
+{
+    width: 40%;
+    float: right;
+}
+.LocationImg img 
+{
+    width: 100%;
+
+}
+
+.service
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.ServicePrg 
+{
+    margin-bottom: 30px;
+
+}
+.ServicePrg h3
+{
+    font-weight: 400;
+    line-height: 44.16px;
+    font-size:32px;
+    color: rgb(48, 48, 48);
+    text-align: center;
+
+
+}
+
+.ServicePrg p 
+{
+    margin-top: 20px;
+    line-height: 31.62px;
+    font-size: 17px;
+    color: rgb(104, 104, 104);
+    text-align: center;
+
+
+}
+
+.service .protucts
+{
+    float: left;
+    width: 30%;
+    margin-left: 45px;
+    margin-bottom: 50px;
+}
+
+.service .protucts img {
+    width: 100%;
+}
+
+.service .protucts p 
+{
+    color:#686868;
+    line-height: 31.62px;
+    font-size: 17px;
+
+}
+.service .protucts h4
+{
+    text-align: center;
+    padding: 30px 0 ;
+    color: rgb(48, 48, 48);
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+
+.bg-color-content {
+    background-color: rgb(248, 248, 248);
+    margin-top: 50px;
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+
+.contact-info {
+    width: 50%;
+    float: left;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.contact-info h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.contact-info p {
+    font-size: 16px;
+    line-height: 37.63px;
+    color: #555;
+}
+
+.contact-info h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.contact-details {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.contact-details li {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+}
+
+.contact-details .icon {
+    color: #8a5b2e;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.map {
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    height: 400px; /* Increase the height here */
+}
+
+iframe {
+    width: 100%;
+    height: 100%; /* Match the iframe height to the container */
+    border: none;
+}
+
+
+
+
+
+
+
+.footer {
+    background-color: rgb(64, 61, 56)
+;
+    color: #ddd;
+    padding: 50px 0;
+
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.column {
+    width: 23%;
+    float: left;
+    margin-right: 2%;
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
+.column h3 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.column p, 
+.column ul li {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(150, 150, 150);
+    margin-bottom: 10px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.contact-details-footer
+{
+    background-image: url(../images/contact-details-map.png);
+    background-position: center center;
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+}
+
+
+.column ul li span.icon {
+    margin-right: 10px;
+    color: #8a5b2e;
+}
+
+
+
+
+.footer-section {
+    background-color: #333;
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden; /* Clear floats */
+}
+
+.footer-logo {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    max-width: 200px; /* Adjust this size as needed */
+}
+
+.footer-clear-fix {
+    clear: both;
+}
+
+.footer-copyright {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-social {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-social img {
+    width: 32px; /* Size of the icons */
+    height: 32px;
+}
+
+
+
+
+.arrow
+{
+    font-size: 20px;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 0 5px 5px;
+    padding-bottom: 5px;
+}
+
+

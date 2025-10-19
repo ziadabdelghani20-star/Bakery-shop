@@ -1,0 +1,75 @@
+.about{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-position: bottom;
+    
+
+}
+.bar {
+    float: right;
+}
+
+
+.PragWho_about
+{
+    margin-top: 50px;
+}
+.Details
+{
+
+    background-color: #f8f8f8    ;
+}
+.Details_head
+{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.Details_head h2
+{
+    color: rgb(48, 48, 48);
+    padding: 20px 0;
+    font-size: 30px;
+
+}
+.Details_head p
+{
+    color: rgb(136, 136, 136);
+        padding: 20px 0;
+
+    font-size: 17px;
+
+}
+.first_three
+{
+    width: 80%;
+    margin: auto ;
+    
+}
+
+.items
+{
+    width: 33%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    
+}
+
+.items p 
+{
+       color: rgb(136, 136, 136);
+
+    
+}
+.items h5 
+{
+    font-size: 18px;
+    line-height: 24.84px;
+    color: rgb(48, 48, 48);
+    font-weight:500;
+    
+}
+.clear-fix {
+    clear: both;
+}

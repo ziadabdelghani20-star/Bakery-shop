@@ -1,0 +1,34 @@
+.offer_page{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-position: center;
+    height: 50vh;
+    background-size: cover;
+
+}
+.offers
+{
+    width: 33%;
+    float: right;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.offers h5 
+{
+    display: inline-block;
+    padding-bottom: 20px ;
+    color: rgb(48, 48, 48);
+    font-weight: 500;
+}
+.offers span
+{
+    float: right;
+    color: rgb(136, 136, 136);
+}
+.offers p 
+{
+    color: rgb(104, 104, 104);
+    padding-top: 20px;
+    line-height: 31.62px;
+
+
+}
